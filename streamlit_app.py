@@ -117,8 +117,11 @@ if st.session_state.quiz is None and st.session_state.mode == "quiz":
             "Select chapters",
             options=chapter_options,
             default=chapter_options,
-            help="Questions will be drawn from the selected chapters only.",
+            help="Only questions from the selected chapters will be included in the quiz.",
         )
+        if selected_chapters:
+            selected_labels = [f"{chapter['subject']}: {chapter['id']}" for chapter in chapters if chapter["id"] in selected_chapters]
+            st.caption(f"Filtering by: {', '.join(selected_labels)}")
         available_question_count = max(1, sum(1 for question in questions if question.get("chapter") in selected_chapters))
         question_count = st.number_input(
             "Number of questions",
@@ -180,7 +183,7 @@ elif st.session_state.mode == "flashcards":
     else:
         card = flashcards[st.session_state.flashcard_index]
         st.subheader(f"Welcome, {st.session_state.player_name}")
-        st.caption(f"Chapter: {card.get('chapter', 'Unknown')}")
+        st.caption(f"Subject: {card.get('chapter', 'Unknown')}")
         st.write(f"Flashcard {st.session_state.flashcard_index + 1} of {len(flashcards)}")
 
         if st.session_state.show_back:
@@ -271,9 +274,8 @@ else:
 
         st.subheader(f"Welcome, {player_name}")
         st.caption(
-            "Chapter: "
-            f"{current_question['chapter']}"
-            f" • Subject: {quiz_session['chapter_lookup'].get(current_question['chapter'], 'Unknown')}"
+            f"Subject: {quiz_session['chapter_lookup'].get(current_question['chapter'], 'Unknown')}"
+            f" • Chapter: {current_question['chapter']}"
         )
         st.write(f"Question {st.session_state.current_index + 1} of {len(quiz_session['questions'])}")
         st.write(current_question["question"])
