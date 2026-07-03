@@ -208,16 +208,16 @@ elif st.session_state.mode == "flashcards":
             st.write(card.get("back", "No answer available."))
             col1, col2 = st.columns(2)
             with col1:
+                if st.button("Next"):
+                    st.session_state.flashcard_index += 1
+                    st.session_state.show_back = False
+                    st.rerun()
+            with col2:
                 if st.button("Previous"):
                     if st.session_state.flashcard_index > 0:
                         st.session_state.flashcard_index -= 1
                         st.session_state.show_back = False
                         st.rerun()
-            with col2:
-                if st.button("Next"):
-                    st.session_state.flashcard_index += 1
-                    st.session_state.show_back = False
-                    st.rerun()
         else:
             st.write("### Front")
             st.write(card.get("front", "No prompt available."))
