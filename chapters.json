@@ -1,7 +1,22 @@
 [
-  {"id": "Arithmetic", "subject": "Math"},
-  {"id": "Science", "subject": "Science"},
-  {"id": "Literature", "subject": "English"},
-  {"id": "Geography", "subject": "Social Studies"},
-  {"id": "Technology", "subject": "Computer Science"}
+  {
+    "id": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "subject": "AP Chemistry"
+  },
+  {
+    "id": "Chapter 2: Atoms, Molecules & Ions",
+    "subject": "AP Chemistry"
+  },
+  {
+    "id": "Chapter 3: Stoichiometry",
+    "subject": "AP Chemistry"
+  },
+  {
+    "id": "Chapter 4: Reactions in Aqueous Solution",
+    "subject": "AP Chemistry"
+  },
+  {
+    "id": "Chapter 5: Gases",
+    "subject": "AP Chemistry"
+  }
 ]
