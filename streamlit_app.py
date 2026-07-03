@@ -107,7 +107,7 @@ if st.session_state.quiz is None:
             "Number of questions",
             min_value=1,
             max_value=available_question_count,
-            value=min(5, available_question_count),
+            value=min(10, available_question_count),
             step=1,
         )
         submitted = st.form_submit_button("Start quiz")
