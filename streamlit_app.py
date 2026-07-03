@@ -6,6 +6,7 @@ import streamlit as st
 
 QUESTIONS_PATH = Path(__file__).with_name("questions.json")
 CHAPTERS_PATH = Path(__file__).with_name("chapters.json")
+FLASHCARDS_PATH = Path(__file__).with_name("flashcards.json")
 
 
 def load_questions(path: Path | None = None) -> list[dict]:
@@ -16,6 +17,12 @@ def load_questions(path: Path | None = None) -> list[dict]:
 
 def load_chapters(path: Path | None = None) -> list[dict]:
     path = path or CHAPTERS_PATH
+    with path.open(encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+def load_flashcards(path: Path | None = None) -> list[dict]:
+    path = path or FLASHCARDS_PATH
     with path.open(encoding="utf-8") as handle:
         return json.load(handle)
 
@@ -84,14 +91,24 @@ if "show_feedback" not in st.session_state:
     st.session_state.show_feedback = False
 if "last_response" not in st.session_state:
     st.session_state.last_response = None
+if "mode" not in st.session_state:
+    st.session_state.mode = "quiz"
+if "flashcards" not in st.session_state:
+    st.session_state.flashcards = []
+if "flashcard_index" not in st.session_state:
+    st.session_state.flashcard_index = 0
+if "show_back" not in st.session_state:
+    st.session_state.show_back = False
 
 
-if st.session_state.quiz is None:
+if st.session_state.quiz is None and st.session_state.mode == "quiz":
     chapters = load_chapters()
     chapter_options = [chapter["id"] for chapter in chapters]
     questions = load_questions()
 
     with st.form("start_quiz"):
+        st.write("Choose how you want to study:")
+        mode = st.radio("Mode", ["quiz", "flashcards"], horizontal=True, index=0)
         player_name = st.text_input(
             "Your name",
             value=st.session_state.player_name or "Anvitha",
@@ -110,29 +127,89 @@ if st.session_state.quiz is None:
             value=min(10, available_question_count),
             step=1,
         )
-        submitted = st.form_submit_button("Start quiz")
+        submitted = st.form_submit_button("Start")
 
         if submitted:
             if not player_name.strip():
                 st.error("Please enter your name before starting.")
-            elif not selected_chapters:
+            elif mode == "quiz" and not selected_chapters:
                 st.error("Select at least one chapter to begin.")
             else:
-                quiz_session = build_quiz_session(
-                    questions=questions,
-                    chapters=chapters,
-                    selected_chapters=selected_chapters,
-                    total_questions=int(question_count),
-                )
-                if not quiz_session["questions"]:
-                    st.error("No questions are available for the selected chapters.")
+                if mode == "flashcards":
+                    flashcards = load_flashcards()
+                    if not flashcards:
+                        st.error("No flashcards are available.")
+                    else:
+                        st.session_state.mode = "flashcards"
+                        st.session_state.flashcards = flashcards
+                        st.session_state.flashcard_index = 0
+                        st.session_state.show_back = False
+                        st.session_state.player_name = player_name.strip()
+                        st.rerun()
                 else:
-                    st.session_state.quiz = quiz_session
-                    st.session_state.player_name = player_name.strip()
-                    st.session_state.current_index = 0
-                    st.session_state.responses = []
-                    st.session_state.show_feedback = False
-                    st.session_state.last_response = None
+                    quiz_session = build_quiz_session(
+                        questions=questions,
+                        chapters=chapters,
+                        selected_chapters=selected_chapters,
+                        total_questions=int(question_count),
+                    )
+                    if not quiz_session["questions"]:
+                        st.error("No questions are available for the selected chapters.")
+                    else:
+                        st.session_state.mode = "quiz"
+                        st.session_state.quiz = quiz_session
+                        st.session_state.player_name = player_name.strip()
+                        st.session_state.current_index = 0
+                        st.session_state.responses = []
+                        st.session_state.show_feedback = False
+                        st.session_state.last_response = None
+                        st.rerun()
+
+elif st.session_state.mode == "flashcards":
+    flashcards = st.session_state.flashcards
+    if not flashcards:
+        flashcards = load_flashcards()
+        st.session_state.flashcards = flashcards
+
+    if st.session_state.flashcard_index >= len(flashcards):
+        st.success(f"{st.session_state.player_name}, you finished the flashcards!")
+        if st.button("Start again"):
+            st.session_state.flashcard_index = 0
+            st.session_state.show_back = False
+            st.rerun()
+    else:
+        card = flashcards[st.session_state.flashcard_index]
+        st.subheader(f"Welcome, {st.session_state.player_name}")
+        st.caption(f"Chapter: {card.get('chapter', 'Unknown')}")
+        st.write(f"Flashcard {st.session_state.flashcard_index + 1} of {len(flashcards)}")
+
+        if st.session_state.show_back:
+            st.write("### Back")
+            st.write(card.get("back", "No answer available."))
+            col1, col2 = st.columns(2)
+            with col1:
+                if st.button("Previous"):
+                    if st.session_state.flashcard_index > 0:
+                        st.session_state.flashcard_index -= 1
+                        st.session_state.show_back = False
+                        st.rerun()
+            with col2:
+                if st.button("Next"):
+                    st.session_state.flashcard_index += 1
+                    st.session_state.show_back = False
+                    st.rerun()
+        else:
+            st.write("### Front")
+            st.write(card.get("front", "No prompt available."))
+            col1, col2 = st.columns(2)
+            with col1:
+                if st.button("Show answer"):
+                    st.session_state.show_back = True
+                    st.rerun()
+            with col2:
+                if st.button("Back to quiz"):
+                    st.session_state.mode = "quiz"
+                    st.session_state.quiz = None
                     st.rerun()
 
 else:
