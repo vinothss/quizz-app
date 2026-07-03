@@ -23,3 +23,14 @@ $ curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
 
 The app reads questions from [questions.json](questions.json) and chapter metadata from [chapters.json](chapters.json).
+
+### Publish it publicly
+
+This app is ready to publish on Streamlit Community Cloud:
+
+1. Push the repository to GitHub.
+2. Open Streamlit Community Cloud and click New app.
+3. Choose this repository and set the main file to [streamlit_app.py](streamlit_app.py).
+4. Deploy.
+
+If you want, I can also help you set up a GitHub repository and the exact deployment steps for your account.
