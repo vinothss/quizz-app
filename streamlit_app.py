@@ -92,7 +92,10 @@ if st.session_state.quiz is None:
     questions = load_questions()
 
     with st.form("start_quiz"):
-        player_name = st.text_input("Your name", value=st.session_state.player_name)
+        player_name = st.text_input(
+            "Your name",
+            value=st.session_state.player_name or "Anvitha",
+        )
         selected_chapters = st.multiselect(
             "Select chapters",
             options=chapter_options,
