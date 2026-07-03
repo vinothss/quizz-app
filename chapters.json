@@ -1,0 +1,7 @@
+[
+  {"id": "Arithmetic", "subject": "Math"},
+  {"id": "Science", "subject": "Science"},
+  {"id": "Literature", "subject": "English"},
+  {"id": "Geography", "subject": "Social Studies"},
+  {"id": "Technology", "subject": "Computer Science"}
+]

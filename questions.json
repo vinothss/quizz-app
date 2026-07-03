@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "What is the value of 2 + 2?",
+    "choices": ["3", "4", "5", "6"],
+    "answer": "4",
+    "chapter": "Arithmetic",
+    "explanation": "Adding 2 and 2 gives 4."
+  },
+  {
+    "id": 2,
+    "question": "Which planet is known as the Red Planet?",
+    "choices": ["Venus", "Mars", "Jupiter", "Mercury"],
+    "answer": "Mars",
+    "chapter": "Science",
+    "explanation": "Mars is nicknamed the Red Planet because of its reddish appearance from iron oxide dust."
+  },
+  {
+    "id": 3,
+    "question": "Who wrote the play Romeo and Juliet?",
+    "choices": ["Charles Dickens", "William Shakespeare", "Jane Austen", "George Orwell"],
+    "answer": "William Shakespeare",
+    "chapter": "Literature",
+    "explanation": "Romeo and Juliet was written by William Shakespeare."
+  },
+  {
+    "id": 4,
+    "question": "What is the capital of France?",
+    "choices": ["Berlin", "Madrid", "Paris", "Rome"],
+    "answer": "Paris",
+    "chapter": "Geography",
+    "explanation": "Paris is the capital city of France."
+  },
+  {
+    "id": 5,
+    "question": "What does HTML stand for?",
+    "choices": ["Hyper Trainer Marking Language", "Hyper Text Markup Language", "High Text Machine Language", "Hyperlink Text Markup Language"],
+    "answer": "Hyper Text Markup Language",
+    "chapter": "Technology",
+    "explanation": "HTML stands for Hyper Text Markup Language, the standard markup language for web pages."
+  },
+  {
+    "id": 6,
+    "question": "Which element has the chemical symbol O?",
+    "choices": ["Gold", "Oxygen", "Silver", "Hydrogen"],
+    "answer": "Oxygen",
+    "chapter": "Science",
+    "explanation": "The element with the chemical symbol O is oxygen."
+  }
+]
