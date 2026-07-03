@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from streamlit_app import build_quiz_session, load_questions, load_chapters
+from streamlit_app import build_quiz_session, load_questions, load_chapters, get_filtered_chapter_options
 
 
 def test_build_quiz_session_uses_unique_randomized_questions(tmp_path):
@@ -46,3 +46,9 @@ def test_build_quiz_session_honors_requested_question_count(tmp_path):
     session = build_quiz_session(loaded_questions, loaded_chapters, selected_chapters=["Alpha", "Beta"], total_questions=1)
 
     assert len(session["questions"]) == 1
+
+
+def test_get_filtered_chapter_options_uses_selected_subjects():
+    chapters = [{"id": "Alpha", "subject": "Math"}, {"id": "Beta", "subject": "Science"}]
+
+    assert get_filtered_chapter_options(chapters, selected_subjects=["Science"]) == ["Beta"]

@@ -27,6 +27,16 @@ def load_flashcards(path: Path | None = None) -> list[dict]:
         return json.load(handle)
 
 
+def get_subject_options(chapters: list[dict]) -> list[str]:
+    return sorted({chapter.get("subject", "Unknown") for chapter in chapters if chapter.get("subject")})
+
+
+def get_filtered_chapter_options(chapters: list[dict], selected_subjects: list[str] | None = None) -> list[str]:
+    if not selected_subjects:
+        return [chapter["id"] for chapter in chapters]
+    return [chapter["id"] for chapter in chapters if chapter.get("subject") in selected_subjects]
+
+
 def build_quiz_session(
     questions: list[dict],
     chapters: list[dict],
@@ -103,8 +113,8 @@ if "show_back" not in st.session_state:
 
 if st.session_state.quiz is None and st.session_state.mode == "quiz":
     chapters = load_chapters()
-    chapter_options = [chapter["id"] for chapter in chapters]
     questions = load_questions()
+    subject_options = get_subject_options(chapters)
 
     with st.form("start_quiz"):
         st.write("Choose how you want to study:")
@@ -113,15 +123,22 @@ if st.session_state.quiz is None and st.session_state.mode == "quiz":
             "Your name",
             value=st.session_state.player_name or "Anvitha",
         )
+        selected_subjects = st.multiselect(
+            "Select subjects",
+            options=subject_options,
+            default=subject_options,
+            help="Choose one or more subjects to narrow the chapter list.",
+        )
+        chapter_options = get_filtered_chapter_options(chapters, selected_subjects)
         selected_chapters = st.multiselect(
             "Select chapters",
             options=chapter_options,
             default=chapter_options,
             help="Only questions from the selected chapters will be included in the quiz.",
         )
-        if selected_chapters:
+        if selected_subjects or selected_chapters:
             selected_labels = [f"{chapter['subject']}: {chapter['id']}" for chapter in chapters if chapter["id"] in selected_chapters]
-            st.caption(f"Filtering by: {', '.join(selected_labels)}")
+            st.caption(f"Filtering by: {', '.join(selected_labels) if selected_labels else 'No chapters selected'}")
         available_question_count = max(1, sum(1 for question in questions if question.get("chapter") in selected_chapters))
         question_count = st.number_input(
             "Number of questions",
