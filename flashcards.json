@@ -1,9 +1,3502 @@
 [
   {
     "id": 1,
-    "front": "Define density and give its formula.",
-    "back": "Mass per unit volume; d = m / V.",
-    "chapter": "Chapter 1: Chemical Foundations",
+    "front": "Define matter.",
+    "back": "Anything that has mass and occupies space.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "front": "Difference between a pure substance and a mixture?",
+    "back": "Pure substance has fixed composition (element or compound); mixture is two+ substances physically combined, separable by physical means.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "front": "What is an element?",
+    "back": "A substance that cannot be broken down into simpler substances by chemical means.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "front": "What is a compound?",
+    "back": "Two or more elements chemically bonded in a fixed ratio.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "front": "Homogeneous vs heterogeneous mixture?",
+    "back": "Homogeneous is uniform throughout (a solution); heterogeneous has visibly distinct regions.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "front": "Give an example of a homogeneous mixture.",
+    "back": "Salt water or air \u2014 uniform composition.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "front": "Give an example of a heterogeneous mixture.",
+    "back": "Italian dressing or sand in water \u2014 distinct phases.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "front": "Are diamond and graphite elements, compounds, or mixtures?",
+    "back": "Elements \u2014 both are pure carbon (allotropes).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 9,
+    "front": "Classify brass.",
+    "back": "Homogeneous mixture (a solid solution alloy of copper and zinc).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 10,
+    "front": "Classify dry ice (solid CO2).",
+    "back": "Compound \u2014 CO2 with a fixed C:O ratio.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "front": "Physical change vs chemical change?",
+    "back": "Physical: identity unchanged (state/shape). Chemical: new substance forms.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "front": "Is boiling water physical or chemical?",
+    "back": "Physical \u2014 steam is still H2O.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "front": "Is rusting iron physical or chemical?",
+    "back": "Chemical \u2014 forms iron oxide, a new substance.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "front": "Is dissolving sugar physical or chemical?",
+    "back": "Physical \u2014 sugar can be recovered by evaporation.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "front": "Name four signs of a chemical change.",
+    "back": "Color change, gas/bubbles, precipitate, temperature/light change.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 16,
+    "front": "Physical property vs chemical property?",
+    "back": "Physical: observable without changing identity (density, color). Chemical: describes reactivity (flammability).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 17,
+    "front": "Is flammability physical or chemical?",
+    "back": "Chemical property \u2014 describes how it burns/reacts.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 18,
+    "front": "Is density physical or chemical?",
+    "back": "Physical property \u2014 measured without changing identity.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 19,
+    "front": "Extensive vs intensive property?",
+    "back": "Extensive depends on amount (mass, volume); intensive does not (density, temperature).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 20,
+    "front": "Is density extensive or intensive?",
+    "back": "Intensive \u2014 independent of amount.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 21,
+    "front": "SI base unit of mass?",
+    "back": "Kilogram (kg).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "front": "SI base unit of length?",
+    "back": "Meter (m).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 23,
+    "front": "SI base unit of temperature?",
+    "back": "Kelvin (K).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "front": "SI base unit of amount of substance?",
+    "back": "Mole (mol).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 25,
+    "front": "SI base unit of time?",
+    "back": "Second (s).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 26,
+    "front": "What does the prefix kilo- mean?",
+    "back": "10^3 = 1000.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 27,
+    "front": "What does the prefix milli- mean?",
+    "back": "10^-3 = 0.001.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 28,
+    "front": "What does the prefix centi- mean?",
+    "back": "10^-2 = 0.01.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 29,
+    "front": "What does the prefix micro- mean?",
+    "back": "10^-6.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 30,
+    "front": "What does the prefix nano- mean?",
+    "back": "10^-9.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 31,
+    "front": "What does the prefix mega- mean?",
+    "back": "10^6.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 32,
+    "front": "How many cm in 1 m?",
+    "back": "100 cm.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 33,
+    "front": "How many mL in 1 L?",
+    "back": "1000 mL.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 34,
+    "front": "How many mm in 1 cm?",
+    "back": "10 mm.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 35,
+    "front": "Derived SI unit of volume?",
+    "back": "Cubic meter (m^3); 1 L = 1000 cm^3.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 36,
+    "front": "Rule: are leading zeros significant?",
+    "back": "No \u2014 leading zeros are never significant.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 37,
+    "front": "Rule: are trailing zeros after a decimal significant?",
+    "back": "Yes \u2014 they indicate precision.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 38,
+    "front": "Are captive (middle) zeros significant?",
+    "back": "Yes \u2014 zeros between nonzero digits always count.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 39,
+    "front": "Sig figs in 0.00450?",
+    "back": "3 (4, 5, and trailing 0).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 40,
+    "front": "Sig figs in 100.0?",
+    "back": "4 \u2014 the decimal makes all significant.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 41,
+    "front": "Sig figs in 1200 (no decimal)?",
+    "back": "Ambiguous, 2 to 4; write in scientific notation to clarify.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 42,
+    "front": "Sig figs in 6.022 x 10^23?",
+    "back": "4 \u2014 only coefficient digits count.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 43,
+    "front": "Sig-fig rule for multiplication/division?",
+    "back": "Answer keeps the fewest significant figures of any factor.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 44,
+    "front": "Sig-fig rule for addition/subtraction?",
+    "back": "Answer keeps the fewest decimal places.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 45,
+    "front": "4.56 + 1.2 to correct sig figs?",
+    "back": "5.8 \u2014 least decimal places is one.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 46,
+    "front": "6.0 x 2.00 to correct sig figs?",
+    "back": "12 \u2014 fewest sig figs is two.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 47,
+    "front": "How many sig figs does an exact counted number have?",
+    "back": "Infinite \u2014 exact numbers don't limit sig figs.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 48,
+    "front": "Round 3.14159 to 3 sig figs.",
+    "back": "3.14.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 49,
+    "front": "Round 0.0568 to 2 sig figs.",
+    "back": "0.057.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 50,
+    "front": "Define accuracy.",
+    "back": "Closeness of a measurement to the true/accepted value.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 51,
+    "front": "Define precision.",
+    "back": "Closeness of repeated measurements to each other (reproducibility).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 52,
+    "front": "Tightly clustered but far from true value = ?",
+    "back": "Precise but not accurate (systematic error).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 53,
+    "front": "Which error type hurts accuracy?",
+    "back": "Systematic error (consistent bias in one direction).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 54,
+    "front": "Which error type hurts precision?",
+    "back": "Random error (scatter).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 55,
+    "front": "Percent error formula?",
+    "back": "|measured - accepted| / accepted x 100%.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 56,
+    "front": "Measured 9.5 vs true 10.0 \u2014 percent error?",
+    "back": "5.0%.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 57,
+    "front": "Density formula?",
+    "back": "d = mass / volume.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 58,
+    "front": "Rearrange density for mass.",
+    "back": "mass = density x volume.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 59,
+    "front": "Rearrange density for volume.",
+    "back": "volume = mass / density.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 60,
+    "front": "Mass of 25.0 mL of liquid with d = 0.80 g/mL?",
+    "back": "20.0 g (0.80 x 25.0).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 61,
+    "front": "Volume of 40. g of metal with d = 8.0 g/cm^3?",
+    "back": "5.0 cm^3 (40./8.0).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 62,
+    "front": "30.0 g in 6.0 cm^3 \u2014 density?",
+    "back": "5.0 g/cm^3.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 63,
+    "front": "Why does ice float on water?",
+    "back": "Solid water (ice) is less dense than liquid water.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 64,
+    "front": "How is volume of an irregular solid measured?",
+    "back": "Water displacement \u2014 final minus initial volume.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 65,
+    "front": "Kelvin to Celsius conversion?",
+    "back": "C = K - 273.15.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 66,
+    "front": "Celsius to Kelvin conversion?",
+    "back": "K = C + 273.15.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 67,
+    "front": "Fahrenheit to Celsius conversion?",
+    "back": "C = (F - 32) x 5/9.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 68,
+    "front": "Celsius to Fahrenheit conversion?",
+    "back": "F = (C x 9/5) + 32.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 69,
+    "front": "What is absolute zero in K and C?",
+    "back": "0 K = -273.15 C.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 70,
+    "front": "25 C in Kelvin?",
+    "back": "298 K.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 71,
+    "front": "At what temperature are C and F equal?",
+    "back": "-40 degrees.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "hard"
+  },
+  {
+    "id": 72,
+    "front": "Do Celsius and Kelvin degrees have the same size?",
+    "back": "Yes \u2014 a change of 1 C equals a change of 1 K.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 73,
+    "front": "Define dimensional analysis.",
+    "back": "Converting units by multiplying by conversion factors so unwanted units cancel.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 74,
+    "front": "Conversion factor to change g to kg?",
+    "back": "1 kg / 1000 g.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 75,
+    "front": "Convert 2.5 kg to g.",
+    "back": "2500 g.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 76,
+    "front": "Convert 500 mL to L.",
+    "back": "0.5 L.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 77,
+    "front": "Convert 90.0 km/h to m/s.",
+    "back": "25.0 m/s (x1000/3600).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "hard"
+  },
+  {
+    "id": 78,
+    "front": "Convert 1.00 mile to km (1 mi = 1.609 km).",
+    "back": "1.61 km.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 79,
+    "front": "Convert 2.5 g/cm^3 to kg/m^3.",
+    "back": "2500 kg/m^3 (1 g/cm^3 = 1000 kg/m^3).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "hard"
+  },
+  {
+    "id": 80,
+    "front": "Convert 5.00 x 10^-6 m to nm.",
+    "back": "5000 nm.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "hard"
+  },
+  {
+    "id": 81,
+    "front": "Write 6500 in scientific notation.",
+    "back": "6.5 x 10^3.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 82,
+    "front": "Write 0.00082 in scientific notation.",
+    "back": "8.2 x 10^-4.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 83,
+    "front": "(3.0 x 10^4)(2.0 x 10^2) = ?",
+    "back": "6.0 x 10^6 (multiply coefficients, add exponents).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 84,
+    "front": "(8.0 x 10^6)/(2.0 x 10^2) = ?",
+    "back": "4.0 x 10^4 (divide coefficients, subtract exponents).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 85,
+    "front": "(2.0 x 10^3)^2 = ?",
+    "back": "4.0 x 10^6.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 86,
+    "front": "Qualitative vs quantitative observation?",
+    "back": "Qualitative describes (color); quantitative measures with numbers and units.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 87,
+    "front": "Hypothesis vs theory vs law?",
+    "back": "Hypothesis: testable guess. Theory: well-tested explanation. Law: summary of consistent behavior.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 88,
+    "front": "Does a scientific law explain why?",
+    "back": "No \u2014 a law summarizes what happens; a theory explains why.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 89,
+    "front": "Where do you read a graduated cylinder?",
+    "back": "Bottom of the meniscus at eye level.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 90,
+    "front": "Which glassware delivers a precise fixed volume?",
+    "back": "Volumetric pipet.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 91,
+    "front": "Edge length of a gold cube (d=19.3), mass 96.5 g?",
+    "back": "V = 5.00 cm^3; edge = cube root = 1.71 cm.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "hard"
+  },
+  {
+    "id": 92,
+    "front": "Density of a 0.500 L solution weighing 525 g?",
+    "back": "1.05 g/mL (525/500).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 93,
+    "front": "Density of a 2.00 cm cube weighing 21.6 g?",
+    "back": "2.70 g/cm^3 (V=8.00 cm^3).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "hard"
+  },
+  {
+    "id": 94,
+    "front": "Delta T if a mixture cools 85.0 C to 12.0 C?",
+    "back": "-73.0 C (final minus initial).",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 95,
+    "front": "Sig figs in 0.0001080?",
+    "back": "4.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 96,
+    "front": "Why can subtracting two close numbers lose precision?",
+    "back": "The difference has fewer significant figures than either original value.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "hard"
+  },
+  {
+    "id": 97,
+    "front": "How many cm^3 in 1.0 L?",
+    "back": "1000 cm^3.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 98,
+    "front": "Best unit to report a solid metal's density?",
+    "back": "g/cm^3.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 99,
+    "front": "Mass of 250.0 mL of liquid, d = 0.7893 g/mL?",
+    "back": "197.3 g.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 100,
+    "front": "Convert 250 mg to grams.",
+    "back": "0.25 g.",
+    "chapter": "Chapter 1: Chemical Foundations (Matter, Measurement & Problem Solving)",
+    "difficulty": "easy"
+  },
+  {
+    "id": 101,
+    "front": "State the law of conservation of mass.",
+    "back": "Mass is neither created nor destroyed in a chemical reaction.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 102,
+    "front": "State the law of definite proportions.",
+    "back": "A given compound always contains the same elements in the same mass ratio.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 103,
+    "front": "State the law of multiple proportions.",
+    "back": "When two elements form multiple compounds, the masses of one per fixed mass of the other are in small whole-number ratios.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 104,
+    "front": "Name the four postulates of Dalton's atomic theory (summary).",
+    "back": "Elements are made of atoms; atoms of an element are identical; compounds form in fixed ratios; reactions rearrange atoms.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 105,
+    "front": "Which Dalton postulate is now known to be false?",
+    "back": "Atoms of an element are all identical (isotopes differ in mass); atoms are indivisible.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 106,
+    "front": "What did Thomson's experiment discover?",
+    "back": "The electron (via cathode ray tube), showing atoms have negative particles.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 107,
+    "front": "What was Thomson's model of the atom called?",
+    "back": "The plum-pudding model.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 108,
+    "front": "What did Millikan's oil-drop experiment measure?",
+    "back": "The charge on the electron.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 109,
+    "front": "What did Rutherford's gold-foil experiment show?",
+    "back": "A small, dense, positive nucleus; most of the atom is empty space.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 110,
+    "front": "Charge and relative mass of a proton?",
+    "back": "Charge +1; mass ~1 amu.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 111,
+    "front": "Charge and relative mass of a neutron?",
+    "back": "Charge 0; mass ~1 amu.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 112,
+    "front": "Charge and relative mass of an electron?",
+    "back": "Charge -1; mass ~1/1836 amu (negligible).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 113,
+    "front": "Where is nearly all the atom's mass located?",
+    "back": "In the nucleus (protons + neutrons).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 114,
+    "front": "What defines the identity of an element?",
+    "back": "Its number of protons (atomic number, Z).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 115,
+    "front": "What is the atomic number?",
+    "back": "The number of protons in the nucleus.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 116,
+    "front": "What is the mass number?",
+    "back": "Protons + neutrons.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 117,
+    "front": "How do you find neutrons?",
+    "back": "Neutrons = mass number - atomic number.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 118,
+    "front": "What are isotopes?",
+    "back": "Atoms of the same element with different numbers of neutrons (same Z, different mass number).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 119,
+    "front": "Do isotopes have the same chemical properties?",
+    "back": "Yes \u2014 same number of protons and electrons; only mass differs.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 120,
+    "front": "Isotope notation: what do superscript and subscript mean?",
+    "back": "Superscript = mass number; subscript = atomic number.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 121,
+    "front": "How many protons, neutrons, electrons in neutral 35-Cl?",
+    "back": "17 p, 18 n, 17 e.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 122,
+    "front": "Define average atomic mass.",
+    "back": "The weighted average of isotope masses by their fractional abundances.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 123,
+    "front": "Average mass of isotopes 10.0 (20%) and 11.0 (80%)?",
+    "back": "(10.0)(0.20)+(11.0)(0.80)=10.8 amu.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 124,
+    "front": "An element's average mass is 63.5 with isotopes 63 and 65. Which is more abundant?",
+    "back": "The 63 isotope \u2014 average is closer to 63.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 125,
+    "front": "How does a mass spectrometer work (concept)?",
+    "back": "Ionizes atoms, separates ions by mass-to-charge ratio, and records relative abundances.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "hard"
+  },
+  {
+    "id": 126,
+    "front": "How does an ion form?",
+    "back": "By gaining or losing electrons.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 127,
+    "front": "What is a cation?",
+    "back": "A positively charged ion (lost electrons).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 128,
+    "front": "What is an anion?",
+    "back": "A negatively charged ion (gained electrons).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 129,
+    "front": "Charge on a Na ion?",
+    "back": "+1 (loses one electron).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 130,
+    "front": "Charge on an O ion?",
+    "back": "-2 (gains two electrons).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 131,
+    "front": "Protons, neutrons, electrons in 40-Ca 2+?",
+    "back": "20 p, 20 n, 18 e.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 132,
+    "front": "Define isoelectronic.",
+    "back": "Species with the same number of electrons.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 133,
+    "front": "Are K+ and Ca2+ isoelectronic? How many electrons?",
+    "back": "Yes \u2014 both 18 electrons.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 134,
+    "front": "Between K+ and Ca2+, which has the smaller radius and why?",
+    "back": "Ca2+ \u2014 more protons (20 vs 19) pull the same 18 electrons tighter.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "hard"
+  },
+  {
+    "id": 135,
+    "front": "Metals tend to form which type of ion?",
+    "back": "Cations (lose electrons).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 136,
+    "front": "Nonmetals tend to form which type of ion?",
+    "back": "Anions (gain electrons).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 137,
+    "front": "Charge of Group 1 (alkali) metal ions?",
+    "back": "+1.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 138,
+    "front": "Charge of Group 2 (alkaline earth) ions?",
+    "back": "+2.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 139,
+    "front": "Charge of Group 17 (halide) ions?",
+    "back": "-1.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 140,
+    "front": "Charge typically formed by aluminum?",
+    "back": "+3.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 141,
+    "front": "What is a polyatomic ion?",
+    "back": "A charged group of covalently bonded atoms acting as one unit.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 142,
+    "front": "Formula and charge of sulfate.",
+    "back": "SO4 2-.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 143,
+    "front": "Formula and charge of nitrate.",
+    "back": "NO3 -.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 144,
+    "front": "Formula and charge of ammonium.",
+    "back": "NH4 +.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 145,
+    "front": "Formula and charge of carbonate.",
+    "back": "CO3 2-.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 146,
+    "front": "Formula and charge of phosphate.",
+    "back": "PO4 3-.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 147,
+    "front": "Formula and charge of hydroxide.",
+    "back": "OH -.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 148,
+    "front": "Formula and charge of nitrite.",
+    "back": "NO2 -.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 149,
+    "front": "Formula and charge of sulfite.",
+    "back": "SO3 2-.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 150,
+    "front": "Formula and charge of acetate.",
+    "back": "C2H3O2 - (or CH3COO-).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 151,
+    "front": "Formula and charge of bicarbonate (hydrogen carbonate).",
+    "back": "HCO3 -.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 152,
+    "front": "Difference between nitrate and nitrite?",
+    "back": "Nitrate NO3-, nitrite NO2- (one fewer oxygen).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 153,
+    "front": "What is an ionic compound?",
+    "back": "A compound of cations and anions held by electrostatic attraction.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 154,
+    "front": "How do you write an ionic formula?",
+    "back": "Balance charges to net zero; use subscripts (criss-cross), reduce to lowest ratio.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 155,
+    "front": "Formula for calcium chloride?",
+    "back": "CaCl2.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 156,
+    "front": "Formula for aluminum oxide?",
+    "back": "Al2O3.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 157,
+    "front": "Formula for iron(III) sulfate?",
+    "back": "Fe2(SO4)3.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "hard"
+  },
+  {
+    "id": 158,
+    "front": "Formula for ammonium phosphate?",
+    "back": "(NH4)3PO4.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "hard"
+  },
+  {
+    "id": 159,
+    "front": "When are parentheses used in a formula?",
+    "back": "When more than one polyatomic ion is present, e.g., (NH4)3PO4.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 160,
+    "front": "How do you name a binary ionic compound?",
+    "back": "Cation name + anion root + -ide (e.g., sodium chloride).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 161,
+    "front": "Name NaCl.",
+    "back": "Sodium chloride.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 162,
+    "front": "Name MgO.",
+    "back": "Magnesium oxide.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 163,
+    "front": "When do you use Roman numerals in naming?",
+    "back": "For transition metals with variable charge, to show the cation charge.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 164,
+    "front": "Name FeCl3.",
+    "back": "Iron(III) chloride.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 165,
+    "front": "Name Cu2O.",
+    "back": "Copper(I) oxide.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 166,
+    "front": "Name CuSO4.",
+    "back": "Copper(II) sulfate.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 167,
+    "front": "Name Fe2(SO4)3.",
+    "back": "Iron(III) sulfate.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "hard"
+  },
+  {
+    "id": 168,
+    "front": "How do you name a binary molecular (covalent) compound?",
+    "back": "Use prefixes (mono, di, tri...) for each element; second ends in -ide.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 169,
+    "front": "Name CO2.",
+    "back": "Carbon dioxide.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 170,
+    "front": "Name N2O4.",
+    "back": "Dinitrogen tetroxide.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 171,
+    "front": "Name CCl4.",
+    "back": "Carbon tetrachloride.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 172,
+    "front": "Do you use 'mono-' on the first element?",
+    "back": "No \u2014 'mono' is omitted on the first element.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 173,
+    "front": "How are binary acids named (H + nonmetal)?",
+    "back": "hydro- + root + -ic acid (e.g., HCl = hydrochloric acid).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 174,
+    "front": "Name HCl(aq).",
+    "back": "Hydrochloric acid.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 175,
+    "front": "Name HBr(aq).",
+    "back": "Hydrobromic acid.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 176,
+    "front": "How are oxoacids from -ate ions named?",
+    "back": "root + -ic acid (e.g., SO4 2- -> sulfuric acid).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "hard"
+  },
+  {
+    "id": 177,
+    "front": "How are oxoacids from -ite ions named?",
+    "back": "root + -ous acid (e.g., SO3 2- -> sulfurous acid).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "hard"
+  },
+  {
+    "id": 178,
+    "front": "Name H2SO4.",
+    "back": "Sulfuric acid.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 179,
+    "front": "Name H2SO3.",
+    "back": "Sulfurous acid.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 180,
+    "front": "Name HNO3.",
+    "back": "Nitric acid.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 181,
+    "front": "Name HNO2.",
+    "back": "Nitrous acid.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 182,
+    "front": "What is a molecule?",
+    "back": "Two or more atoms covalently bonded as a discrete unit.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 183,
+    "front": "What is a diatomic element? Name them.",
+    "back": "Elements that exist as 2-atom molecules: H2, N2, O2, F2, Cl2, Br2, I2.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 184,
+    "front": "What is a chemical formula?",
+    "back": "A notation showing the elements and number of each atom in a substance.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 185,
+    "front": "Empirical vs molecular formula?",
+    "back": "Empirical is the simplest whole-number ratio; molecular gives the actual atom counts.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 186,
+    "front": "Empirical formula of C6H12O6?",
+    "back": "CH2O.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 187,
+    "front": "What is a structural formula?",
+    "back": "Shows how atoms are connected (bonds), not just counts.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 188,
+    "front": "What is a hydrate?",
+    "back": "An ionic compound with water molecules incorporated in its structure (e.g., CuSO4.5H2O).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 189,
+    "front": "Percent water in CuSO4.5H2O (approx)?",
+    "back": "~36% (90.1 g water / 249.7 g total).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "hard"
+  },
+  {
+    "id": 190,
+    "front": "Reading the periodic table: what are periods?",
+    "back": "Horizontal rows.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 191,
+    "front": "What are groups/families?",
+    "back": "Vertical columns with similar chemical properties.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 192,
+    "front": "Where are metals located?",
+    "back": "Left and center of the periodic table.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 193,
+    "front": "Where are nonmetals located?",
+    "back": "Upper right of the periodic table.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 194,
+    "front": "What are metalloids?",
+    "back": "Elements along the metal/nonmetal staircase with intermediate properties (e.g., Si, As).",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 195,
+    "front": "Name Group 1 elements collectively.",
+    "back": "Alkali metals.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 196,
+    "front": "Name Group 2 elements collectively.",
+    "back": "Alkaline earth metals.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 197,
+    "front": "Name Group 17 collectively.",
+    "back": "Halogens.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 198,
+    "front": "Name Group 18 collectively.",
+    "back": "Noble gases.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 199,
+    "front": "Ion an atom forms with 16 p, 16 n, 18 e?",
+    "back": "S 2- (sulfide), mass 32 -> 32-S 2-.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "hard"
+  },
+  {
+    "id": 200,
+    "front": "Symbol for ion with 24 p, 28 n, 21 e?",
+    "back": "52-Cr 3+.",
+    "chapter": "Chapter 2: Atoms, Molecules & Ions",
+    "difficulty": "hard"
+  },
+  {
+    "id": 201,
+    "front": "What is the atomic mass unit (amu) based on?",
+    "back": "1/12 the mass of a carbon-12 atom.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 202,
+    "front": "What is a mole?",
+    "back": "The amount of substance containing Avogadro's number of particles.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 203,
+    "front": "Value of Avogadro's number?",
+    "back": "6.022 x 10^23 particles per mole.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 204,
+    "front": "What is molar mass?",
+    "back": "The mass of one mole of a substance (g/mol), numerically equal to the atomic/formula mass.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 205,
+    "front": "How do you find the molar mass of a compound?",
+    "back": "Sum the molar masses of all atoms in the formula.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 206,
+    "front": "Molar mass of H2O?",
+    "back": "18.02 g/mol.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 207,
+    "front": "Molar mass of CO2?",
+    "back": "44.01 g/mol.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 208,
+    "front": "Molar mass of NaCl?",
+    "back": "58.44 g/mol.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 209,
+    "front": "Molar mass of Ca(OH)2?",
+    "back": "74.10 g/mol.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 210,
+    "front": "Molar mass of Al2(SO4)3?",
+    "back": "342.17 g/mol.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 211,
+    "front": "Convert moles to number of particles.",
+    "back": "Multiply moles by 6.022 x 10^23.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 212,
+    "front": "Convert grams to moles.",
+    "back": "Divide grams by molar mass.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 213,
+    "front": "Convert moles to grams.",
+    "back": "Multiply moles by molar mass.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 214,
+    "front": "How many molecules in 2.0 mol H2O?",
+    "back": "2.0 x 6.022e23 = 1.2 x 10^24.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 215,
+    "front": "How many moles in 36.0 g of water?",
+    "back": "36.0/18.02 = 2.00 mol.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 216,
+    "front": "How many oxygen atoms in 1 mol CO2?",
+    "back": "2 x 6.022e23 = 1.2 x 10^24 O atoms.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 217,
+    "front": "Define percent composition.",
+    "back": "The mass percent of each element in a compound.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 218,
+    "front": "Formula for mass percent of an element.",
+    "back": "(mass of element in 1 mol / molar mass) x 100%.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 219,
+    "front": "Percent N in NH3?",
+    "back": "14.01/17.03 x 100 = 82.3%.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 220,
+    "front": "Percent O in CO2?",
+    "back": "32.00/44.01 x 100 = 72.7%.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 221,
+    "front": "Percent N in NH4NO3?",
+    "back": "28.02/80.05 x 100 = 35.0%.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 222,
+    "front": "What is an empirical formula?",
+    "back": "The simplest whole-number ratio of atoms.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 223,
+    "front": "Steps to find empirical formula from percent composition?",
+    "back": "Assume 100 g, convert to moles, divide by smallest, round to whole numbers.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 224,
+    "front": "Empirical formula of 40.0% C, 6.7% H, 53.3% O?",
+    "back": "CH2O.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 225,
+    "front": "How do you get molecular formula from empirical?",
+    "back": "Divide molar mass by empirical mass; multiply subscripts by that integer.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 226,
+    "front": "Empirical CH2O, molar mass 180 -> molecular?",
+    "back": "180/30 = 6 -> C6H12O6.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 227,
+    "front": "Empirical CH, molar mass 78 -> molecular?",
+    "back": "78/13 = 6 -> C6H6.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 228,
+    "front": "What is combustion analysis used for?",
+    "back": "Finding empirical formulas of C-H-O compounds from CO2 and H2O produced.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 229,
+    "front": "In combustion analysis, how do you find mol C?",
+    "back": "mol C = mol CO2 (all carbon becomes CO2).",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 230,
+    "front": "In combustion analysis, how do you find mol H?",
+    "back": "mol H = 2 x mol H2O.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 231,
+    "front": "In combustion analysis, how do you find mass O?",
+    "back": "Subtract mass of C and H from the sample mass.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 232,
+    "front": "What does a balanced equation conserve?",
+    "back": "Atoms of each element (and mass and charge).",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 233,
+    "front": "Balance: H2 + O2 -> H2O.",
+    "back": "2 H2 + O2 -> 2 H2O.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 234,
+    "front": "Balance combustion of propane C3H8.",
+    "back": "C3H8 + 5 O2 -> 3 CO2 + 4 H2O.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 235,
+    "front": "Balance combustion of butane: coefficient of O2?",
+    "back": "2 C4H10 + 13 O2 -> 8 CO2 + 10 H2O; O2 = 13.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 236,
+    "front": "General products of hydrocarbon combustion?",
+    "back": "CO2 and H2O.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 237,
+    "front": "What is a mole ratio?",
+    "back": "The ratio of coefficients between two species in a balanced equation.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 238,
+    "front": "For N2 + 3H2 -> 2NH3, mol H2 to make 6 mol NH3?",
+    "back": "6 x 3/2 = 9 mol H2.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 239,
+    "front": "For 2KClO3 -> 2KCl + 3O2, mol O2 from 4 mol KClO3?",
+    "back": "4 x 3/2 = 6 mol O2.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 240,
+    "front": "Steps for a mass-to-mass stoichiometry problem?",
+    "back": "g A -> mol A -> mol B (ratio) -> g B.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 241,
+    "front": "Mass of AlCl3 from 5.40 g Al (excess Cl2), 2Al+3Cl2->2AlCl3?",
+    "back": "0.200 mol Al -> 0.200 mol AlCl3 x 133.3 = 26.7 g.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 242,
+    "front": "What is a limiting reagent?",
+    "back": "The reactant that runs out first and limits product formed.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 243,
+    "front": "What is an excess reagent?",
+    "back": "The reactant left over after the reaction stops.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 244,
+    "front": "How do you identify the limiting reagent?",
+    "back": "Convert each reactant to product moles; the one giving less product is limiting.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 245,
+    "front": "N2 + 3H2 -> 2NH3 with 0.29 mol N2 and 1.5 mol H2 \u2014 limiting?",
+    "back": "N2 (needs 0.86 mol H2; H2 is in excess).",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 246,
+    "front": "How do you find leftover excess reagent mass?",
+    "back": "Subtract the amount consumed by the limiting reagent from the starting amount.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 247,
+    "front": "What is theoretical yield?",
+    "back": "The maximum product predicted from the limiting reagent.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 248,
+    "front": "What is actual yield?",
+    "back": "The amount of product actually obtained experimentally.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 249,
+    "front": "Percent yield formula?",
+    "back": "(actual yield / theoretical yield) x 100%.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 250,
+    "front": "Actual 18.5 g, theoretical 22.0 g \u2014 percent yield?",
+    "back": "84.1%.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 251,
+    "front": "If percent yield is 78% and theoretical is 50.0 g, actual yield?",
+    "back": "0.78 x 50.0 = 39.0 g.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 252,
+    "front": "Why is actual yield usually less than theoretical?",
+    "back": "Side reactions, incomplete reactions, and loss during recovery.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 253,
+    "front": "Can percent yield exceed 100%? What would it indicate?",
+    "back": "Not truly \u2014 it signals impure product or measurement error.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 254,
+    "front": "For 2 Al + 3 CuCl2, 0.20 mol Al and 0.26 mol CuCl2 \u2014 limiting?",
+    "back": "CuCl2 (Al needs 0.30 mol CuCl2; only 0.26 available).",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 255,
+    "front": "Theoretical Cu from 0.26 mol CuCl2 (3CuCl2->3Cu)?",
+    "back": "0.26 mol Cu x 63.55 = ~16.5 g.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 256,
+    "front": "Formula weight vs molecular weight?",
+    "back": "Formula weight applies to ionic (formula units); molecular weight to molecules; both are sums of atomic masses.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 257,
+    "front": "What is a formula unit?",
+    "back": "The simplest ratio unit of an ionic compound (e.g., NaCl).",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 258,
+    "front": "Moles in 100. g of CaCO3 (100.09 g/mol)?",
+    "back": "~1.00 mol.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 259,
+    "front": "Grams of CaCO3 to make 11.0 g CO2 (CaCO3->CaO+CO2)?",
+    "back": "0.250 mol -> 25.0 g.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 260,
+    "front": "How many moles of atoms in 1 mole of O2?",
+    "back": "2 moles of O atoms.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 261,
+    "front": "Mass of 3.01 x 10^23 molecules of H2O?",
+    "back": "0.500 mol x 18.02 = 9.01 g.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 262,
+    "front": "Which has more atoms: 1 mol He or 1 mol O2?",
+    "back": "Equal molecules, but O2 has 2x the atoms (2 mol atoms vs 1).",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 263,
+    "front": "Percent by mass of water in a 50.0 g sample with 20.0 g water?",
+    "back": "40.0%.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 264,
+    "front": "Mole-to-mole ratio in 2 H2O2 -> 2 H2O + O2 for O2 per H2O2?",
+    "back": "1 O2 per 2 H2O2.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 265,
+    "front": "For CH4 + 2O2 -> CO2 + 2H2O, mol H2O per mol CH4?",
+    "back": "2 mol H2O.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 266,
+    "front": "If 16 g CH4 (1 mol) reacts with 16 g O2 (0.5 mol), which is limiting?",
+    "back": "O2 \u2014 needs 2 mol per mol CH4; only 0.5 mol present.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 267,
+    "front": "What is stoichiometry?",
+    "back": "The quantitative relationship between reactants and products in a reaction.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 268,
+    "front": "Molar mass of glucose C6H12O6?",
+    "back": "180.16 g/mol.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 269,
+    "front": "Number of moles in 6.022 x 10^24 particles?",
+    "back": "10.0 mol.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 270,
+    "front": "Convert 3.0 mol NaCl to grams.",
+    "back": "3.0 x 58.44 = 175 g.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 271,
+    "front": "Convert 29.2 g NaCl to moles.",
+    "back": "29.2/58.44 = 0.500 mol.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 272,
+    "front": "How many H atoms in 1 mol of CH4?",
+    "back": "4 x 6.022e23 = 2.4 x 10^24.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 273,
+    "front": "A compound is 52.2% C, 13.0% H, 34.8% O \u2014 empirical?",
+    "back": "C2H6O.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 274,
+    "front": "Molecular formula if empirical C2H6O and molar mass 46?",
+    "back": "46/46 = 1 -> C2H6O (ethanol).",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 275,
+    "front": "Sum rule: total mass of reactants vs products?",
+    "back": "Equal \u2014 conservation of mass.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 276,
+    "front": "If 10.0 g reactant fully reacts, total product mass?",
+    "back": "10.0 g (mass is conserved).",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 277,
+    "front": "Molar mass of (NH4)2SO4?",
+    "back": "132.15 g/mol.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 278,
+    "front": "Percent N in (NH4)2SO4?",
+    "back": "28.02/132.15 x 100 = 21.2%.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 279,
+    "front": "For 4NH3+5O2->4NO+6H2O, mol NO from 10 mol O2?",
+    "back": "10 x 4/5 = 8 mol NO.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 280,
+    "front": "Grams of O2 needed to burn 1 mol CH4 (CH4+2O2)?",
+    "back": "2 x 32.00 = 64.0 g.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 281,
+    "front": "What is a spectator in a stoichiometry sense (mass basis)?",
+    "back": "A species present but not consumed; its mass is unchanged.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 282,
+    "front": "Define molar volume of an ideal gas at STP.",
+    "back": "22.4 L/mol at 0 C and 1 atm.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 283,
+    "front": "Moles in 44.8 L of gas at STP?",
+    "back": "44.8/22.4 = 2.00 mol.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 284,
+    "front": "Mass of 0.500 mol of CaCO3 (100.09)?",
+    "back": "50.0 g.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 285,
+    "front": "How many formula units in 1 mol NaCl?",
+    "back": "6.022 x 10^23.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 286,
+    "front": "Ratio of coefficients = ratio of what?",
+    "back": "Moles (and, for gases, volumes).",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 287,
+    "front": "A hydrocarbon is 82.7% C, 17.3% H \u2014 empirical?",
+    "back": "C2H5.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 288,
+    "front": "Empirical mass of CH2?",
+    "back": "14.03 g/mol.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 289,
+    "front": "If a sample yields 0.0375 mol CO2, mass of C?",
+    "back": "0.0375 x 12.01 = 0.450 g.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 290,
+    "front": "Balance: Fe2O3 + CO -> Fe + CO2.",
+    "back": "Fe2O3 + 3CO -> 2Fe + 3CO2.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 291,
+    "front": "Type of reaction: Fe2O3 + 3CO -> 2Fe + 3CO2?",
+    "back": "Redox (single-replacement/reduction of iron).",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 292,
+    "front": "Mol Fe from 2.00 mol Fe2O3 (Fe2O3->2Fe)?",
+    "back": "4.00 mol Fe.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 293,
+    "front": "Why must an equation be balanced before stoichiometry?",
+    "back": "Mole ratios come from coefficients; unbalanced ratios give wrong amounts.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 294,
+    "front": "Steps in a limiting-reagent problem?",
+    "back": "Moles of each reactant -> product moles via ratio -> smaller value is limiting -> compute yield.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 295,
+    "front": "Convert 0.25 mol O2 to molecules.",
+    "back": "0.25 x 6.022e23 = 1.5 x 10^23.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 296,
+    "front": "Molar mass of NH4NO3?",
+    "back": "80.05 g/mol.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 297,
+    "front": "For 2H2+O2->2H2O, grams of water from 4.0 g H2 (excess O2)?",
+    "back": "2.0 mol H2 -> 2.0 mol H2O x 18.02 = 36 g.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 298,
+    "front": "What is Avogadro's contribution (concept)?",
+    "back": "Equal volumes of gases at same T,P contain equal numbers of molecules.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "medium"
+  },
+  {
+    "id": 299,
+    "front": "Density of a gas relates to molar mass how (at STP)?",
+    "back": "d = molar mass / 22.4 L/mol.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "hard"
+  },
+  {
+    "id": 300,
+    "front": "Convert 1.5 mol CO2 to grams.",
+    "back": "1.5 x 44.01 = 66 g.",
+    "chapter": "Chapter 3: Stoichiometry",
+    "difficulty": "easy"
+  },
+  {
+    "id": 301,
+    "front": "What is an aqueous solution?",
+    "back": "A solution in which water is the solvent.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 302,
+    "front": "Solute vs solvent?",
+    "back": "Solute is dissolved; solvent does the dissolving (present in greater amount).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 303,
+    "front": "What is an electrolyte?",
+    "back": "A substance that conducts electricity when dissolved (produces ions).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 304,
+    "front": "Strong vs weak electrolyte?",
+    "back": "Strong fully ionizes; weak only partially ionizes.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 305,
+    "front": "Give an example of a nonelectrolyte.",
+    "back": "Sugar (glucose) or ethanol \u2014 dissolves without forming ions.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 306,
+    "front": "Are strong acids strong or weak electrolytes?",
+    "back": "Strong electrolytes (fully ionize).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 307,
+    "front": "Are soluble ionic salts strong or weak electrolytes?",
+    "back": "Strong electrolytes.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 308,
+    "front": "Why does water dissolve ionic compounds?",
+    "back": "Its polarity lets it surround and stabilize ions (hydration).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 309,
+    "front": "Define molarity.",
+    "back": "Moles of solute per liter of solution (mol/L).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 310,
+    "front": "Molarity formula?",
+    "back": "M = moles solute / liters solution.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 311,
+    "front": "Molarity of 0.100 mol in 250 mL?",
+    "back": "0.100/0.250 = 0.400 M.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 312,
+    "front": "Molarity of 5.85 g NaCl in 250 mL?",
+    "back": "0.100 mol/0.250 L = 0.400 M.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 313,
+    "front": "Moles of solute in 2.0 L of 0.50 M solution?",
+    "back": "1.0 mol.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 314,
+    "front": "Grams of NaCl in 500 mL of 1.0 M solution?",
+    "back": "0.50 mol x 58.44 = 29 g.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 315,
+    "front": "Dilution equation?",
+    "back": "M1V1 = M2V2.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 316,
+    "front": "Dilute 25.0 mL of 0.500 M to 0.100 M \u2014 final volume?",
+    "back": "V2 = 125 mL.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 317,
+    "front": "Water to add diluting 25.0 mL 0.500 M to 0.100 M?",
+    "back": "125 - 25 = 100. mL.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 318,
+    "front": "Does dilution change moles of solute?",
+    "back": "No \u2014 only volume/concentration change; moles stay constant.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 319,
+    "front": "What is a precipitation reaction?",
+    "back": "A reaction forming an insoluble solid (precipitate) from mixed solutions.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 320,
+    "front": "What is a precipitate?",
+    "back": "An insoluble solid that forms and separates from solution.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 321,
+    "front": "Solubility rule: are all nitrates soluble?",
+    "back": "Yes \u2014 all nitrates (NO3-) are soluble.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 322,
+    "front": "Solubility rule: are Group 1 and ammonium salts soluble?",
+    "back": "Yes \u2014 always soluble.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 323,
+    "front": "Solubility rule for chlorides, bromides, iodides?",
+    "back": "Soluble except with Ag+, Pb2+, Hg2 2+.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 324,
+    "front": "Solubility rule for sulfates?",
+    "back": "Soluble except with Ba2+, Pb2+, Ca2+ (slightly), Sr2+.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 325,
+    "front": "Solubility rule for hydroxides?",
+    "back": "Mostly insoluble except Group 1 and Ba2+ (Ca2+ slightly).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 326,
+    "front": "Solubility rule for carbonates and phosphates?",
+    "back": "Mostly insoluble except Group 1 and ammonium.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 327,
+    "front": "Mix AgNO3 + NaCl \u2014 what forms?",
+    "back": "AgCl precipitate (white solid).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 328,
+    "front": "Mix KNO3 + NaCl \u2014 precipitate?",
+    "back": "No \u2014 all products soluble.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 329,
+    "front": "What is a molecular (formula) equation?",
+    "back": "An equation showing complete neutral formulas of all species.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 330,
+    "front": "What is a complete ionic equation?",
+    "back": "All soluble strong electrolytes written as separated ions.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 331,
+    "front": "What is a net ionic equation?",
+    "back": "The equation with spectator ions removed, showing only reacting species.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 332,
+    "front": "What are spectator ions?",
+    "back": "Ions that appear unchanged on both sides and are omitted from the net ionic equation.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 333,
+    "front": "Net ionic for AgNO3 + NaCl?",
+    "back": "Ag+ + Cl- -> AgCl(s).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 334,
+    "front": "Net ionic for BaCl2 + Na2SO4?",
+    "back": "Ba2+ + SO4 2- -> BaSO4(s).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 335,
+    "front": "Spectators in BaCl2 + Na2SO4?",
+    "back": "Na+ and Cl-.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 336,
+    "front": "Arrhenius acid definition?",
+    "back": "A substance that produces H+ (H3O+) in water.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 337,
+    "front": "Arrhenius base definition?",
+    "back": "A substance that produces OH- in water.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 338,
+    "front": "Bronsted-Lowry acid?",
+    "back": "A proton (H+) donor.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 339,
+    "front": "Bronsted-Lowry base?",
+    "back": "A proton (H+) acceptor.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 340,
+    "front": "Name three strong acids.",
+    "back": "HCl, HNO3, H2SO4 (also HBr, HI, HClO4).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 341,
+    "front": "Name two strong bases.",
+    "back": "NaOH and KOH (Group 1/2 hydroxides).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 342,
+    "front": "What is a neutralization reaction?",
+    "back": "Acid + base -> salt + water.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 343,
+    "front": "Net ionic for a strong acid + strong base neutralization?",
+    "back": "H+ + OH- -> H2O.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 344,
+    "front": "Products of HCl + NaOH?",
+    "back": "NaCl + H2O.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 345,
+    "front": "What is titration?",
+    "back": "Adding a solution of known concentration to determine an unknown concentration.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 346,
+    "front": "What is the equivalence point?",
+    "back": "Where moles of acid equal moles of base (stoichiometrically complete).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 347,
+    "front": "Volume of 0.150 M NaOH to neutralize 30.0 mL of 0.200 M HCl?",
+    "back": "0.00600 mol -> 40.0 mL.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 348,
+    "front": "Formula linking titration: M_a V_a = ?",
+    "back": "M_b V_b (for a 1:1 acid-base reaction).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 349,
+    "front": "What is oxidation?",
+    "back": "Loss of electrons (oxidation number increases).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 350,
+    "front": "What is reduction?",
+    "back": "Gain of electrons (oxidation number decreases).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 351,
+    "front": "Mnemonic for redox?",
+    "back": "OIL RIG: Oxidation Is Loss, Reduction Is Gain.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 352,
+    "front": "What is an oxidizing agent?",
+    "back": "The species that gets reduced (it takes electrons).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 353,
+    "front": "What is a reducing agent?",
+    "back": "The species that gets oxidized (it gives electrons).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 354,
+    "front": "Oxidation number of a free element?",
+    "back": "0.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 355,
+    "front": "Oxidation number of a monatomic ion?",
+    "back": "Equal to its charge.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 356,
+    "front": "Oxidation number of oxygen (usual)?",
+    "back": "-2 (except peroxides -1, with F positive).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 357,
+    "front": "Oxidation number of hydrogen (usual)?",
+    "back": "+1 (with metals, -1).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 358,
+    "front": "Sum of oxidation numbers in a neutral compound?",
+    "back": "0.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 359,
+    "front": "Sum of oxidation numbers in a polyatomic ion?",
+    "back": "Equal to the ion's charge.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 360,
+    "front": "Oxidation number of Mn in MnO4-?",
+    "back": "+7.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 361,
+    "front": "Oxidation number of Cr in Cr2O7 2-?",
+    "back": "+6.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 362,
+    "front": "Oxidation number of S in SO4 2-?",
+    "back": "+6.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 363,
+    "front": "In MnO4- -> Mn2+, is Mn oxidized or reduced?",
+    "back": "Reduced (+7 to +2).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 364,
+    "front": "What is a combination (synthesis) reaction?",
+    "back": "Two or more reactants form one product (A + B -> AB).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 365,
+    "front": "What is a decomposition reaction?",
+    "back": "One reactant breaks into two or more products.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 366,
+    "front": "What is a single-replacement reaction?",
+    "back": "One element displaces another in a compound (A + BC -> AC + B).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 367,
+    "front": "What is a double-replacement reaction?",
+    "back": "Ions exchange partners (AB + CD -> AD + CB), often forming a precipitate.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 368,
+    "front": "What is a combustion reaction?",
+    "back": "A substance reacts with O2, releasing heat (hydrocarbons -> CO2 + H2O).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 369,
+    "front": "What is solution stoichiometry?",
+    "back": "Using molarity and volume to relate moles in reactions in solution.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 370,
+    "front": "Moles from molarity and volume?",
+    "back": "moles = Molarity x Volume(L).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 371,
+    "front": "Moles of HCl in 30.0 mL of 0.200 M?",
+    "back": "0.0300 x 0.200 = 0.00600 mol.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 372,
+    "front": "Mass of AgCl from 25.0 mL of 0.100 M AgNO3 (excess Cl-)?",
+    "back": "0.00250 mol x 143.3 = 0.358 g.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 373,
+    "front": "Concentration of Cl- from 0.0100 mol in 100.0 mL?",
+    "back": "0.100 M.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 374,
+    "front": "What is the activity series used for?",
+    "back": "Predicting whether a single-replacement reaction occurs (more active displaces less active).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 375,
+    "front": "Will Zn displace Cu2+ from solution?",
+    "back": "Yes \u2014 Zn is more active than Cu.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 376,
+    "front": "Will Cu displace Zn2+?",
+    "back": "No \u2014 Cu is less active than Zn.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 377,
+    "front": "What is a half-reaction?",
+    "back": "A reaction showing only oxidation or only reduction with electrons.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 378,
+    "front": "What ions make hard water?",
+    "back": "Ca2+ and Mg2+.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 379,
+    "front": "Why do we write strong acids as ions in ionic equations?",
+    "back": "They ionize completely in water.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 380,
+    "front": "Why write weak acids as molecules in ionic equations?",
+    "back": "They only partially ionize; mostly exist as intact molecules.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 381,
+    "front": "Is HC2H3O2 (acetic acid) strong or weak?",
+    "back": "Weak acid.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 382,
+    "front": "Is NH3 a strong or weak base?",
+    "back": "Weak base.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 383,
+    "front": "What color change indicates an acid-base endpoint (phenolphthalein)?",
+    "back": "Colorless (acidic) to pink (basic).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 384,
+    "front": "What determines a good titration indicator?",
+    "back": "One that changes color near the equivalence-point pH.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 385,
+    "front": "Define concentration.",
+    "back": "The amount of solute per amount of solution (or solvent).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 386,
+    "front": "What happens to concentration when you add solvent?",
+    "back": "It decreases (dilution).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 387,
+    "front": "Moles of ions from 1 mol of CaCl2 dissolving?",
+    "back": "3 mol ions (1 Ca2+ + 2 Cl-).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 388,
+    "front": "Total ion concentration of 0.10 M CaCl2?",
+    "back": "0.30 M (0.10 Ca2+ + 0.20 Cl-).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 389,
+    "front": "Why do soluble ionic compounds conduct electricity in water?",
+    "back": "Dissociated mobile ions carry charge.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 390,
+    "front": "Is a precipitate a strong, weak, or non-electrolyte in the equation?",
+    "back": "Written as a solid (s), not as ions.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 391,
+    "front": "General form of an acid-base neutralization product besides water?",
+    "back": "A salt (ionic compound of the cation and anion).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 392,
+    "front": "Complete: 2 HCl + Ca(OH)2 -> ?",
+    "back": "CaCl2 + 2 H2O.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 393,
+    "front": "What is the driving force in precipitation reactions?",
+    "back": "Formation of an insoluble solid removes ions from solution.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 394,
+    "front": "How many mL of water added to make 0.60 M into 0.40 M for 50 mL?",
+    "back": "V2=75 mL; add 25 mL water.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 395,
+    "front": "Molarity if 0.25 mol dissolved to 500 mL?",
+    "back": "0.50 M.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 396,
+    "front": "Convert 250 mL of 2.0 M to moles.",
+    "back": "0.250 x 2.0 = 0.50 mol.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 397,
+    "front": "What is a saturated solution?",
+    "back": "One holding the maximum solute that can dissolve at that temperature.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 398,
+    "front": "Redox: assign and check Mn in KMnO4 to MnSO4 change.",
+    "back": "+7 -> +2; Mn is reduced (gains 5 electrons).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 399,
+    "front": "What is a strong electrolyte solution's conductivity vs weak?",
+    "back": "Strong conducts well (many ions); weak conducts poorly (few ions).",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 400,
+    "front": "Net ionic for HNO3 + KOH?",
+    "back": "H+ + OH- -> H2O.",
+    "chapter": "Chapter 4: Reactions in Aqueous Solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 401,
+    "front": "Define pressure.",
+    "back": "Force per unit area.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 402,
+    "front": "SI unit of pressure?",
+    "back": "Pascal (Pa) = N/m^2.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 403,
+    "front": "1 atm equals how many mmHg (torr)?",
+    "back": "760 mmHg = 760 torr.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 404,
+    "front": "1 atm equals how many kPa?",
+    "back": "101.325 kPa.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 405,
+    "front": "What instrument measures atmospheric pressure?",
+    "back": "A barometer.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 406,
+    "front": "What instrument measures gas pressure in a container?",
+    "back": "A manometer.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 407,
+    "front": "State Boyle's law.",
+    "back": "At constant T and n, P and V are inversely proportional: P1V1 = P2V2.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 408,
+    "front": "State Charles's law.",
+    "back": "At constant P and n, V is directly proportional to T (in K): V1/T1 = V2/T2.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 409,
+    "front": "State Gay-Lussac's law.",
+    "back": "At constant V and n, P is directly proportional to T (in K): P1/T1 = P2/T2.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 410,
+    "front": "State Avogadro's law.",
+    "back": "At constant T and P, V is proportional to n (moles): V1/n1 = V2/n2.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 411,
+    "front": "Combined gas law?",
+    "back": "P1V1/T1 = P2V2/T2.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 412,
+    "front": "Why must temperature be in Kelvin for gas laws?",
+    "back": "The laws require an absolute scale; 0 K corresponds to zero volume/pressure extrapolation.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 413,
+    "front": "Boyle: if V halves at constant T, what happens to P?",
+    "back": "P doubles (inverse relationship).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 414,
+    "front": "Charles: gas at 2.0 L, 300 K heated to 600 K \u2014 new volume?",
+    "back": "4.0 L (V proportional to T).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 415,
+    "front": "Write the ideal gas law.",
+    "back": "PV = nRT.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 416,
+    "front": "Value of R in L.atm/(mol.K)?",
+    "back": "0.0821 L.atm/(mol.K).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 417,
+    "front": "Value of R in J/(mol.K)?",
+    "back": "8.314 J/(mol.K).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 418,
+    "front": "What does STP stand for and its values?",
+    "back": "Standard Temperature and Pressure: 0 C (273.15 K) and 1 atm.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 419,
+    "front": "Molar volume of an ideal gas at STP?",
+    "back": "22.4 L/mol.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 420,
+    "front": "Volume of 2.00 mol of gas at STP?",
+    "back": "44.8 L.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 421,
+    "front": "Moles in 11.2 L of gas at STP?",
+    "back": "0.500 mol.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 422,
+    "front": "Find P: 1.0 mol gas, 22.4 L, 273 K.",
+    "back": "P = nRT/V = 1.0(0.0821)(273)/22.4 = 1.0 atm.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 423,
+    "front": "Find n: 2.0 atm, 10.0 L, 300 K.",
+    "back": "n = PV/RT = 2.0(10.0)/(0.0821x300) = 0.812 mol.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 424,
+    "front": "Solve PV=nRT for T.",
+    "back": "T = PV/(nR).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 425,
+    "front": "What are the assumptions of kinetic molecular theory?",
+    "back": "Tiny particles, negligible volume, no attractions, elastic collisions, KE proportional to T.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 426,
+    "front": "Average kinetic energy of a gas depends on what?",
+    "back": "Only absolute temperature (K).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 427,
+    "front": "Do all gases at the same T have the same average KE?",
+    "back": "Yes \u2014 average KE depends only on temperature.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 428,
+    "front": "Relationship of molecular speed to molar mass at same T?",
+    "back": "Lighter molecules move faster (speed inversely related to sqrt of molar mass).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 429,
+    "front": "Formula for root-mean-square speed.",
+    "back": "u_rms = sqrt(3RT/M).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 430,
+    "front": "Which moves faster at the same T: He or O2?",
+    "back": "He (lower molar mass).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 431,
+    "front": "State Graham's law of effusion.",
+    "back": "Rate of effusion is inversely proportional to sqrt of molar mass.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 432,
+    "front": "Graham: ratio r1/r2 = ?",
+    "back": "sqrt(M2/M1).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 433,
+    "front": "Which effuses faster, H2 or CO2?",
+    "back": "H2 \u2014 much lower molar mass.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 434,
+    "front": "What is effusion?",
+    "back": "Escape of gas molecules through a tiny hole into a vacuum.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 435,
+    "front": "What is diffusion?",
+    "back": "Spreading/mixing of gas molecules through one another.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 436,
+    "front": "State Dalton's law of partial pressures.",
+    "back": "Total pressure = sum of partial pressures of each gas.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 437,
+    "front": "Partial pressure via mole fraction?",
+    "back": "P_A = X_A x P_total.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 438,
+    "front": "Mole fraction definition?",
+    "back": "Moles of a component / total moles.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 439,
+    "front": "3 gases at 2,3,5 atm \u2014 total pressure?",
+    "back": "10 atm.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 440,
+    "front": "A gas collected over water \u2014 how to get dry gas pressure?",
+    "back": "Subtract the vapor pressure of water from total pressure.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 441,
+    "front": "Partial pressure of gas that is 0.25 mole fraction at 780 mmHg total?",
+    "back": "0.25 x 780 = 195 mmHg.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 442,
+    "front": "Formula relating density and molar mass of a gas.",
+    "back": "d = PM/(RT).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 443,
+    "front": "Gas density at STP from molar mass?",
+    "back": "d = M/22.4 (g/L).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 444,
+    "front": "Density of CO2 at STP?",
+    "back": "44.01/22.4 = 1.96 g/L.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 445,
+    "front": "Molar mass from gas density: M = ?",
+    "back": "M = dRT/P.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 446,
+    "front": "What is an ideal gas?",
+    "back": "A hypothetical gas that perfectly obeys PV=nRT (no volume, no attractions).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 447,
+    "front": "When do real gases deviate from ideal behavior?",
+    "back": "At high pressure and low temperature.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 448,
+    "front": "Why do real gases deviate at high pressure?",
+    "back": "Molecular volume becomes significant relative to container volume.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 449,
+    "front": "Why do real gases deviate at low temperature?",
+    "back": "Intermolecular attractions become significant as molecules slow down.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 450,
+    "front": "Which gas behaves most ideally: He or NH3? Why?",
+    "back": "He \u2014 small, nonpolar, weak attractions.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 451,
+    "front": "Name the equation that corrects for real gas behavior.",
+    "back": "The van der Waals equation.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 452,
+    "front": "In van der Waals, what does 'a' correct for?",
+    "back": "Intermolecular attractions.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 453,
+    "front": "In van der Waals, what does 'b' correct for?",
+    "back": "Finite molecular volume.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 454,
+    "front": "Gas stoichiometry: how to relate volume to moles at STP?",
+    "back": "Use 22.4 L/mol to convert.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 455,
+    "front": "Volume of O2 (STP) to burn 1 mol CH4 (CH4+2O2)?",
+    "back": "2 mol x 22.4 = 44.8 L.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 456,
+    "front": "Convert 3.00 atm to mmHg.",
+    "back": "3.00 x 760 = 2280 mmHg.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 457,
+    "front": "Convert 380 mmHg to atm.",
+    "back": "380/760 = 0.500 atm.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 458,
+    "front": "At constant n and T, P vs V graph shape?",
+    "back": "A hyperbola (inverse relationship).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 459,
+    "front": "At constant n and P, V vs T (K) graph shape?",
+    "back": "A straight line through the origin.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 460,
+    "front": "If T doubles at constant V and n, what happens to P?",
+    "back": "P doubles.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 461,
+    "front": "A 5.00 L container at 2.00 atm expands to 10.0 L (constant T). New P?",
+    "back": "1.00 atm (Boyle's law).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 462,
+    "front": "Gas at 25 C, 1.0 atm heated to 50 C at constant V. Approx new P?",
+    "back": "P2 = 1.0 x (323/298) = 1.08 atm.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 463,
+    "front": "What is partial pressure?",
+    "back": "The pressure a gas in a mixture would exert alone in the same volume.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 464,
+    "front": "If you double the moles of gas at constant T and V, pressure does what?",
+    "back": "Doubles (P proportional to n).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 465,
+    "front": "Standard molar volume applies to which conditions?",
+    "back": "STP (0 C, 1 atm): 22.4 L/mol.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 466,
+    "front": "Which variable must always be absolute in gas law calcs?",
+    "back": "Temperature (Kelvin).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 467,
+    "front": "What is the pressure unit 'bar' vs atm?",
+    "back": "1 bar = 100 kPa; ~0.987 atm.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 468,
+    "front": "Express PV = nRT solved for V.",
+    "back": "V = nRT/P.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 469,
+    "front": "Compute V: 0.500 mol, 1.00 atm, 273 K.",
+    "back": "V = 0.500(0.0821)(273)/1.00 = 11.2 L.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 470,
+    "front": "What does a larger molar mass mean for effusion rate?",
+    "back": "Slower effusion.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 471,
+    "front": "KMT: are collisions between ideal gas particles elastic or inelastic?",
+    "back": "Perfectly elastic (no KE lost).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 472,
+    "front": "KMT: what is the assumed volume of ideal gas particles?",
+    "back": "Negligible compared to the container.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 473,
+    "front": "As temperature rises, molecular speed distribution does what?",
+    "back": "Shifts to higher speeds and broadens (Maxwell-Boltzmann).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 474,
+    "front": "Two gases at same T: which has broader speed distribution?",
+    "back": "The lighter gas (higher, more spread speeds).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 475,
+    "front": "Convert 100. kPa to atm.",
+    "back": "100/101.325 = 0.987 atm.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 476,
+    "front": "A balloon at constant P is heated. What happens to volume?",
+    "back": "It increases (Charles's law).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 477,
+    "front": "Why does a sealed can burst when heated?",
+    "back": "Pressure rises with temperature at constant volume (Gay-Lussac).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 478,
+    "front": "Total moles from partial pressures? (concept)",
+    "back": "Each partial pressure is proportional to that gas's moles.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 479,
+    "front": "Mole fraction of O2 if P(O2)=0.21 atm and total=1.00 atm?",
+    "back": "0.21.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 480,
+    "front": "Molar mass of a gas with density 1.34 g/L at STP?",
+    "back": "1.34 x 22.4 = 30.0 g/mol.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 481,
+    "front": "What law predicts equal volumes have equal molecules (same T,P)?",
+    "back": "Avogadro's law.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 482,
+    "front": "A gas sample doubles in volume and halves in pressure \u2014 T constant?",
+    "back": "Consistent with Boyle's law (PV constant).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 483,
+    "front": "Ideal gas: does PV/nRT equal 1?",
+    "back": "Yes \u2014 for an ideal gas the compressibility factor Z = 1.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 484,
+    "front": "Rank average speed: He, Ne, Ar at same T.",
+    "back": "He > Ne > Ar (lower mass = faster).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 485,
+    "front": "Compute moles: 760 torr, 22.4 L, 273 K.",
+    "back": "1.00 mol (STP conditions).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 486,
+    "front": "What happens to gas volume if both P doubles and T doubles?",
+    "back": "Volume unchanged (effects cancel).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 487,
+    "front": "Partial pressure of N2 in air (~78%) at 1.00 atm?",
+    "back": "~0.78 atm.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 488,
+    "front": "Why is water vapor pressure subtracted when collecting gas over water?",
+    "back": "The measured total includes water vapor; subtract it for the dry gas.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 489,
+    "front": "Gas constant R links which four quantities?",
+    "back": "P, V, n, T in PV=nRT.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 490,
+    "front": "Volume of 1.00 mol ideal gas at 273 K, 1 atm?",
+    "back": "22.4 L.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 491,
+    "front": "If you compress a gas to half volume at constant T, KE changes?",
+    "back": "No \u2014 KE depends only on T, which is constant.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 492,
+    "front": "Behavior comparison: high T favors ideal or real deviations?",
+    "back": "High T favors ideal behavior.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 493,
+    "front": "Manometer: how is gas pressure found relative to atmosphere?",
+    "back": "Compare mercury heights; add or subtract the height difference from atmospheric.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 494,
+    "front": "Two flasks equal V and T, one H2 one O2 at same P \u2014 equal moles?",
+    "back": "Yes \u2014 same P, V, T means equal moles (Avogadro).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 495,
+    "front": "Two flasks equal V, T, P of H2 and O2 \u2014 equal mass?",
+    "back": "No \u2014 O2 is 16x heavier per molecule, so greater mass.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 496,
+    "front": "What is the compressibility factor Z?",
+    "back": "Z = PV/nRT; equals 1 for ideal gases.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 497,
+    "front": "Effusion rate ratio of H2 to O2?",
+    "back": "sqrt(32/2) = 4 \u2014 H2 effuses 4x faster.",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "hard"
+  },
+  {
+    "id": 498,
+    "front": "A rigid container's gas is cooled. Pressure does what?",
+    "back": "Decreases (Gay-Lussac, P proportional to T).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 499,
+    "front": "Why can gases be compressed easily?",
+    "back": "Large spaces between particles (mostly empty space).",
+    "chapter": "Chapter 5: Gases",
+    "difficulty": "easy"
+  },
+  {
+    "id": 500,
+    "front": "Why do gases fill their container completely?",
+    "back": "Particles move freely and randomly with negligible attractions.",
+    "chapter": "Chapter 5: Gases",
     "difficulty": "easy"
   }
 ]
