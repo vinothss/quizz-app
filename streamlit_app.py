@@ -1,3 +1,4 @@
+import html
 import json
 import random
 from pathlib import Path
@@ -84,7 +85,79 @@ def reset_quiz_state() -> None:
         st.session_state.pop(key, None)
 
 
+def render_flashcard(content: str, title: str, subtitle: str | None = None) -> None:
+    escaped_content = html.escape(content)
+    escaped_title = html.escape(title)
+    subtitle_html = f"<div class='flashcard-subtitle'>{html.escape(subtitle)}</div>" if subtitle else ""
+    st.markdown(
+        f"""
+        <div class="flashcard-shell">
+            <div class="flashcard-tag">{escaped_title}</div>
+            {subtitle_html}
+            <div class="flashcard-body">{escaped_content}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 st.set_page_config(page_title="Quiz App", page_icon="🧠", layout="centered")
+st.markdown(
+    """
+    <style>
+        .flashcard-shell {
+            background: linear-gradient(135deg, #ffffff 0%, #eef4ff 100%);
+            border: 1px solid #c9d8ff;
+            border-radius: 24px;
+            box-shadow: 0 12px 35px rgba(56, 88, 167, 0.16);
+            padding: 1.5rem 1.6rem;
+            margin: 0.4rem 0 1rem;
+            min-height: 280px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .flashcard-tag {
+            display: inline-block;
+            width: fit-content;
+            background: #4f6ef7;
+            color: white;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            padding: 0.35rem 0.7rem;
+            border-radius: 999px;
+            margin-bottom: 0.7rem;
+            text-transform: uppercase;
+        }
+        .flashcard-subtitle {
+            color: #5b6b8a;
+            font-size: 0.95rem;
+            margin-bottom: 0.8rem;
+            font-weight: 600;
+        }
+        .flashcard-body {
+            font-size: 1.15rem;
+            line-height: 1.6;
+            color: #21314d;
+            font-weight: 500;
+        }
+        div.stButton > button {
+            border-radius: 999px;
+            padding: 0.45rem 1rem;
+            border: 1px solid #d2dcff;
+            background: white;
+            color: #3554c7;
+            font-weight: 600;
+        }
+        div.stButton > button:hover {
+            border-color: #4f6ef7;
+            background: #eef3ff;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 st.title("🧠 Quiz App")
 st.write("Take a chapter-based quiz with randomized questions and instant scoring.")
 
@@ -204,8 +277,11 @@ elif st.session_state.mode == "flashcards":
         st.write(f"Flashcard {st.session_state.flashcard_index + 1} of {len(flashcards)}")
 
         if st.session_state.show_back:
-            st.write("### Back")
-            st.write(card.get("back", "No answer available."))
+            render_flashcard(
+                card.get("back", "No answer available."),
+                title="Answer",
+                subtitle=f"{st.session_state.flashcard_index + 1} of {len(flashcards)} • {card.get('chapter', 'Unknown')}",
+            )
             col1, col2 = st.columns(2)
             with col1:
                 if st.button("Next"):
@@ -219,8 +295,11 @@ elif st.session_state.mode == "flashcards":
                         st.session_state.show_back = False
                         st.rerun()
         else:
-            st.write("### Front")
-            st.write(card.get("front", "No prompt available."))
+            render_flashcard(
+                card.get("front", "No prompt available."),
+                title="Question",
+                subtitle=f"{st.session_state.flashcard_index + 1} of {len(flashcards)} • {card.get('chapter', 'Unknown')}",
+            )
             col1, col2 = st.columns(2)
             with col1:
                 if st.button("Show answer"):
