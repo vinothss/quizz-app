@@ -101,16 +101,31 @@ def render_flashcard(content: str, title: str, subtitle: str | None = None) -> N
     )
 
 
-st.set_page_config(page_title="Quiz App", page_icon="🧠", layout="centered")
+st.set_page_config(page_title="Quiz App", page_icon="🧠", layout="wide")
 st.markdown(
     """
     <style>
+        .stApp {
+            background: linear-gradient(180deg, #f8faff 0%, #f2f6ff 100%);
+        }
+        .block-container {
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+            max-width: 1100px;
+        }
+        [data-testid="stForm"] {
+            background: white;
+            border: 1px solid #e2eafc;
+            border-radius: 22px;
+            padding: 1.1rem 1.2rem 0.8rem;
+            box-shadow: 0 10px 25px rgba(74, 96, 162, 0.08);
+        }
         .flashcard-shell {
             background: linear-gradient(135deg, #ffffff 0%, #eef4ff 100%);
             border: 1px solid #c9d8ff;
             border-radius: 24px;
             box-shadow: 0 12px 35px rgba(56, 88, 167, 0.16);
-            padding: 1.5rem 1.6rem;
+            padding: 1.25rem 1.25rem 1.4rem;
             margin: 0.4rem 0 1rem;
             min-height: 280px;
             display: flex;
@@ -141,18 +156,38 @@ st.markdown(
             line-height: 1.6;
             color: #21314d;
             font-weight: 500;
+            word-break: break-word;
         }
         div.stButton > button {
             border-radius: 999px;
-            padding: 0.45rem 1rem;
+            padding: 0.5rem 1rem;
             border: 1px solid #d2dcff;
             background: white;
             color: #3554c7;
             font-weight: 600;
+            width: 100%;
         }
         div.stButton > button:hover {
             border-color: #4f6ef7;
             background: #eef3ff;
+        }
+        @media (max-width: 768px) {
+            .block-container {
+                padding-left: 0.7rem;
+                padding-right: 0.7rem;
+            }
+            .flashcard-shell {
+                min-height: 220px;
+                padding: 1rem;
+                border-radius: 18px;
+            }
+            .flashcard-body {
+                font-size: 1rem;
+            }
+            div.stButton > button {
+                padding: 0.6rem 0.8rem;
+                margin-top: 0.25rem;
+            }
         }
     </style>
     """,
