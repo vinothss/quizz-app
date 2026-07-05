@@ -1,7 +1,14 @@
 import json
 from pathlib import Path
 
-from streamlit_app import build_quiz_session, load_questions, load_chapters, get_filtered_chapter_options
+from streamlit_app import (
+    build_flag_quiz_session,
+    build_quiz_session,
+    get_filtered_chapter_options,
+    load_chapters,
+    load_flags,
+    load_questions,
+)
 
 
 def test_build_quiz_session_uses_unique_randomized_questions(tmp_path):
@@ -52,3 +59,20 @@ def test_get_filtered_chapter_options_uses_selected_subjects():
     chapters = [{"id": "Alpha", "subject": "Math"}, {"id": "Beta", "subject": "Science"}]
 
     assert get_filtered_chapter_options(chapters, selected_subjects=["Science"]) == ["Beta"]
+
+
+def test_build_flag_quiz_session_uses_unique_flags(tmp_path):
+    flags_path = tmp_path / "flags.json"
+    flags = [
+        {"country": "France", "image_url": "https://example.com/fr.png"},
+        {"country": "Germany", "image_url": "https://example.com/de.png"},
+        {"country": "Japan", "image_url": "https://example.com/jp.png"},
+    ]
+    flags_path.write_text(json.dumps(flags), encoding="utf-8")
+
+    loaded_flags = load_flags(flags_path)
+    session = build_flag_quiz_session(loaded_flags, total_questions=2)
+
+    assert len(session["flags"]) == 2
+    assert len({item["country"] for item in session["flags"]}) == 2
+    assert all("image_url" in item for item in session["flags"])

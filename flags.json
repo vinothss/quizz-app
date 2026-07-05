@@ -1,0 +1,22 @@
+[
+  {
+    "country": "France",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+  },
+  {
+    "country": "Germany",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg"
+  },
+  {
+    "country": "Japan",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg"
+  },
+  {
+    "country": "Brazil",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg"
+  },
+  {
+    "country": "India",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg"
+  }
+]
